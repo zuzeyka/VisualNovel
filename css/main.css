@@ -1,0 +1,61 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: "ShareTechMono"
+}
+
+.main{
+	height: 100%;
+	background-image: url("https://www.cyberpunk.net/build/images/home6/keyart-edgerunners@desktop-9a5e79df.jpg");
+	background-size: cover;
+	animation: menu 8s 
+}
+
+a{
+	font-size: 80px;
+	color: yellow;
+	text-decoration: none;
+	margin: 120px;
+	animation: menu 50s 
+}
+
+footer{
+	position: absolute;
+	top: 87%;
+	left: 5%;
+}
+
+.circle{
+	position: absolute;
+	top: 76%;
+	left: 88%;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	border: 10px solid yellow;
+	border-top: 10px solid green;
+	animation: animate 1s infinite linear
+}
+
+@keyframes animate {
+	0%{
+		transform: translate(-20%, 50%) rotate(0deg);
+	}
+	100%{
+		transform: translate(-20%, 50%) rotate(360deg);
+	}
+}
+
+@keyframes menu {
+	0%{
+		opacity: 0;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
