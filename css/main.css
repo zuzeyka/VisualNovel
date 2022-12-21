@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "CyberPunk";
+    src: url("../fonts/ShareTechMono-Regular.ttf") format('truetype');
+}
+
 html,
 body {
 	height: 100%;
@@ -8,6 +13,10 @@ body {
 	font-family: "ShareTechMono"
 }
 
+* {
+    cursor: url('../img/arrow.png'), auto;
+}
+
 .main{
 	height: 100%;
 	background-image: url("https://www.cyberpunk.net/build/images/home6/keyart-edgerunners@desktop-9a5e79df.jpg");
@@ -16,6 +25,7 @@ body {
 }
 
 a{
+	font-family: "CyberPunk";
 	font-size: 80px;
 	color: yellow;
 	text-decoration: none;

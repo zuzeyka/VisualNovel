@@ -4,6 +4,13 @@ body, html{
 	margin: 0;
 	padding: 0;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: url('../img/arrow.png'), auto;
+}
+
 img{
 	max-width: none;
 	min-width: auto;
